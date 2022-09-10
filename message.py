@@ -37,7 +37,11 @@ def stream_trec07p(dataset_path):
                     parse_body(message),
                     label
                 )
-
+"""
+References:
+1. https://plg.uwaterloo.ca/cgi-bin/cgiwrap/gvcormac/trec07p.tgz
+2. https://github.com/online-ml/datasets-scripts/blob/master/trec07.py 
+"""
 
 if __name__ == '__main__':
     dataset_path = 'trec07p'
